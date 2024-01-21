@@ -41,6 +41,14 @@ button {
     justify-content: center;
 }
 
+.highscore_div {
+    text-align: left;
+}
+
+.time_div {
+    text-align: right;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -53,6 +61,7 @@ button {
 /* IDs */
 #time {
     font-size: 15px;
+    margin: auto;
 }
 
 #highscore {
