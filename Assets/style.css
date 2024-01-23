@@ -22,9 +22,11 @@ p {
 
 button {
     background-color: purple;
+    text-align: left;
     padding: 5px;
     border-radius: 5px;
     color: white;
+    min-width: 120px;
     width: auto;
     margin: 5px auto 5px auto;
 }
@@ -49,10 +51,11 @@ button {
     text-align: right;
 }
 
+
 .section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     text-align: center;
     justify-content: center;
     width: 50%;
@@ -66,4 +69,14 @@ button {
 
 #highscore {
     font-size: 15px;
+}
+
+.answerFrame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+#start {
+    text-align: center;
 }
