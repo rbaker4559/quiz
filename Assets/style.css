@@ -47,6 +47,13 @@ button {
     text-align: left;
 }
 
+.highscores {
+    background-color: plum;
+    text-align: left;
+    margin: 5px auto 5px auto;
+    width: 100%;
+}
+
 .time_div {
     text-align: right;
 }
@@ -62,7 +69,7 @@ button {
 }
 
 /* IDs */
-#time {
+#timerFrame {
     font-size: 15px;
     margin: auto;
 }
@@ -73,10 +80,28 @@ button {
 
 .answerFrame {
     display: flex;
-    flex-wrap: wrap;
     width: 25%;
+    flex-direction: column;
 }
+
 
 #start {
     text-align: center;
 }
+
+#submit {
+    width: auto;
+    text-align: center;
+}
+
+#initialsInput {
+    width: 25%;
+    height: 40px;
+    margin: 5px auto 10px auto;
+}
+
+#finalScore {
+    color: purple;
+    font-size: 50px;
+}
+
